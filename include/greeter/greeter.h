@@ -26,6 +26,8 @@ namespace greeter {
      * @return a string containing the greeting
      */
     std::string greet(LanguageCode lang = LanguageCode::EN) const;
+    
+    std::string greet2(LanguageCode lang = LanguageCode::EN) const;
   };
 
 }  // namespace greeter
